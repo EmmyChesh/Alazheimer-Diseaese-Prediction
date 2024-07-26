@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load the pre-trained model using pickle
-model_path = r'C:\Users\HP\Desktop\MACHINE LEARNING\ALZHEIMERS PREDICTION\Alzheimerr.sav'
+model_path = r'Alzheimerr.sav'
 with open(model_path, 'rb') as file:
     model = pickle.load(file)
 
