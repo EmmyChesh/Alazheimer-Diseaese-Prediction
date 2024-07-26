@@ -3,9 +3,7 @@ import pandas as pd
 import pickle
 
 # Load the pre-trained model using pickle
-model_path = r'Alzheimerr.sav'
-with open(model_path, 'rb') as file:
-    model = pickle.load(file)
+model = pickle.load(open('Alzheimerr.sav, 'rb'))
 
 # Initialize the input fields in Streamlit
 st.title('Health Data Prediction')
