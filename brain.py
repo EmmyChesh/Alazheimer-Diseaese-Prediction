@@ -3,10 +3,7 @@ import pandas as pd
 import pickle
 import catboost as cat
 
-# Load the pre-trained model using pickle
-model = cat.CatBoostClassifier()
-model.load_model('Alzheimer.sav')
-# model = pickle.load(open(github.com/EmmyChesh/Alazheimer-Diseaese-Prediction/blob/main/Alzheimerr.sav, 'rb'))
+model = pickle.load(open('Alzheimerr.sav, 'rb'))
 
 # Initialize the input fields in Streamlit
 st.title('Health Data Prediction')
