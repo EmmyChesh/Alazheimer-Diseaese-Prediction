@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import catboost
+
+
 
 # Ensure the correct path and filename
 model_path = 'Alzheimerr.sav'
