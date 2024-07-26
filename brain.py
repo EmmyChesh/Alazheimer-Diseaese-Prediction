@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import pickle
-import catboost as cat
 
 model = pickle.load(open('Alzheimerr.sav', 'rb'))
 
