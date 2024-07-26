@@ -2,7 +2,11 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-model = pickle.load(open('Alzheimerr.sav', 'rb'))
+# Ensure the correct path and filename
+model_path = 'Alzheimerr.sav'
+with open(model_path, 'rb') as model_file:
+    model = pickle.load(model_file)
+
 
 # Initialize the input fields in Streamlit
 st.title('Health Data Prediction')
