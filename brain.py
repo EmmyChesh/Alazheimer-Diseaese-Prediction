@@ -4,7 +4,7 @@ import pickle
 import catboost
 
 def main():
-    st.title('Health Data Prediction')
+    st.title('Alzheimer Data Prediction')
     st.write("Provide your health data to predict the likelihood of Alzheimer’s disease.")
 
     # Load the model with error handling
